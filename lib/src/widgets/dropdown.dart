@@ -211,6 +211,7 @@ class _SearchField extends StatelessWidget {
         decoration: InputDecoration(
           isDense: true,
           hintText: decoration.hintText,
+          hintStyle : decoration.hintTextStyle,
           border: decoration.border,
           focusedBorder: decoration.focusedBorder,
           suffixIcon: decoration.searchIcon,

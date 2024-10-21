@@ -8,6 +8,7 @@ class SearchFieldDecoration {
   ///
   /// [hintText] is the hint text to display in the search field. The default value is 'Search'.
   ///
+  ////[hintTextStyle] is the hint text to display in the search field. The default value is 'Sear
   /// [border] is the border of the search field. The default value is OutlineInputBorder().
   ///
   /// [focusedBorder] is the border of the search field when it is focused. The default value is OutlineInputBorder().
