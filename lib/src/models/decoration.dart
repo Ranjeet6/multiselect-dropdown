@@ -1,5 +1,7 @@
 part of '../multi_dropdown.dart';
 
+
+
 /// Represents the decoration for the search field in the dropdown.
 class SearchFieldDecoration {
   /// Creates a new instance of [SearchFieldDecoration].
@@ -13,6 +15,11 @@ class SearchFieldDecoration {
   /// [searchIcon] is the icon to display in the search field. The default value is Icon(Icons.search).
   const SearchFieldDecoration({
     this.hintText = 'Search',
+    this.hintStyle = const TextStyle(
+      fontSize: 20,
+      fontWeight: FontWeight.normal,
+
+    ),
     this.border = const OutlineInputBorder(
       borderSide: BorderSide(color: Color(0xFFE0E0E0)),
       borderRadius: BorderRadius.all(Radius.circular(12)),
@@ -26,6 +33,10 @@ class SearchFieldDecoration {
 
   /// The hint text to display in the search field.
   final String hintText;
+
+
+  /// hintstyle for hint text styling
+  final TextStyle hintStyle;
 
   /// The border of the search field.
   final InputBorder? border;
