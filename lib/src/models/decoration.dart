@@ -18,7 +18,7 @@ class SearchFieldDecoration {
     this.hintText = 'Search',
     this.hintTextStyle = const TextStyle(
       fontSize: 10,
-      fontWeight: FontWeight.normal,
+      fontWeight: FontWeight.w100,
 
     ),
     this.border = const OutlineInputBorder(
@@ -77,6 +77,7 @@ class DropdownItemDecoration {
     this.disabledTextColor,
     this.selectedIcon = const Icon(Icons.check),
     this.disabledIcon,
+    this.padding = 10,
   });
 
   /// The background color of the dropdown item.
@@ -102,6 +103,9 @@ class DropdownItemDecoration {
 
   /// The icon to display for the disabled dropdown item.
   final Icon? disabledIcon;
+
+  ///custom padding for dropdown items
+  final double padding;
 }
 
 /// Represents the decoration for the dropdown.

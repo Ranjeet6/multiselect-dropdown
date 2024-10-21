@@ -163,6 +163,7 @@ class _Dropdown<T> extends StatelessWidget {
         autofocus: true,
         enabled: !option.disabled,
         selected: option.selected,
+        contentPadding: EdgeInsets.symmetric(horizontal: dropdownItemDecoration.padding),
         visualDensity: VisualDensity.adaptivePlatformDensity,
         focusColor: dropdownItemDecoration.backgroundColor?.withAlpha(100),
         selectedColor: dropdownItemDecoration.selectedTextColor ??
