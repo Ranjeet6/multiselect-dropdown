@@ -15,7 +15,7 @@ class SearchFieldDecoration {
   /// [searchIcon] is the icon to display in the search field. The default value is Icon(Icons.search).
   const SearchFieldDecoration({
     this.hintText = 'Search',
-    this.hintStyle = const TextStyle(
+    this.hintTextStyle = const TextStyle(
       fontSize: 20,
       fontWeight: FontWeight.normal,
 
@@ -36,7 +36,7 @@ class SearchFieldDecoration {
 
 
   /// hintstyle for hint text styling
-  final TextStyle hintStyle;
+  final TextStyle hintTextStyle;
 
   /// The border of the search field.
   final InputBorder? border;
