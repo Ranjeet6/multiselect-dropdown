@@ -16,7 +16,7 @@ class SearchFieldDecoration {
   const SearchFieldDecoration({
     this.hintText = 'Search',
     this.hintTextStyle = const TextStyle(
-      fontSize: 20,
+      fontSize: 10,
       fontWeight: FontWeight.normal,
 
     ),
